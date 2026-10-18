@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0031-next-permutation) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0031-next-permutation) |
@@ -144,4 +146,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0493-reverse-pairs) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
