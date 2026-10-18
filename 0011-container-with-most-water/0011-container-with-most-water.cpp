@@ -7,8 +7,7 @@ public:
         int max_water = 0;
 
         while(left < right){
-            int water = min(height[left], height[right]) * (right-left);
-            max_water = max(max_water, water);
+            max_water = max(max_water, min(height[left], height[right]) * (right-left));
 
             if(height[left]>height[right]){
                 right--;
