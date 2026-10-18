@@ -8,12 +8,8 @@ public:
         while(left < right){
             max_water = max(max_water, min(height[left], height[right]) * (right-left));
 
-            if(height[left]>height[right]){
-                right--;
-            }
-            else{
-                left++;
-            }
+            if(height[left]>height[right]) right--;
+            else left++;
         }
 
         return max_water;
