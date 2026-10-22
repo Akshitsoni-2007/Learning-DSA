@@ -5,9 +5,7 @@ public:
         map<int,int> mpp;
         for(int i = 0; i<n; i++){
             mpp[nums[i]]++;
-        }
-        for(const auto& num: mpp){
-            if(num.second > 1) return true;
+            if(mpp[nums[i]] > 1) return true;
         }
         return false;
     }
