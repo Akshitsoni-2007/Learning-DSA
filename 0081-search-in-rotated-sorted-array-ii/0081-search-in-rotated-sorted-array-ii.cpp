@@ -7,9 +7,8 @@ public:
             if(nums[mid] == target) return true;
             if(nums[mid] == nums[high] && nums[mid] == nums[low]){
                 low++, high--;
-                continue;
             }
-            if(nums[low] <= nums[mid]){
+            else if(nums[low] <= nums[mid]){
                 if(target>=nums[low] && target<=nums[mid]) high = mid-1;
                 else low = mid+1;
             }
