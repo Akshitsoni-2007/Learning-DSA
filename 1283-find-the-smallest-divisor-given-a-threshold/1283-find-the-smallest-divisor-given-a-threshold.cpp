@@ -7,7 +7,7 @@ public:
             int mid = low+(high-low)/2;
             long long sum = 0;
             for(int i = 0; i<nums.size(); i++){
-                sum += ceil((double)nums[i]/mid);
+                sum += (nums[i] + mid - 1) / mid;
             }
             if(sum <= threshold){
                 ans = mid;
