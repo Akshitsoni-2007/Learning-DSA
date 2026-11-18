@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0326-power-of-three) |
 | [0507-perfect-number](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/0507-perfect-number) |
+| [2235-add-two-integers](https://github.com/Akshitsoni-2007/Learning-DSA/tree/master/2235-add-two-integers) |
 ## Array
 |  |
 | ------- |
