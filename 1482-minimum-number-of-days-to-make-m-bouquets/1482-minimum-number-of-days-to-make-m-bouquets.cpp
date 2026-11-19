@@ -1,12 +1,18 @@
 class Solution {
 public:
-    bool isPossible(vector<int> nums, int k, int m, int day){
+    bool isPossible(vector<int>& nums, int k, int m, int day){
         int cnt = 0;
         int noB = 0;
         for(int i = 0; i<nums.size(); i++){
-            if(nums[i]<= day) cnt++;
+            if(nums[i]<= day){
+                cnt++;
+                if(cnt == k){
+                    noB++;
+                    cnt = 0;
+                    if(noB>=m) return true;
+                }
+            }
             else{
-                noB += (cnt/k);
                 cnt = 0;
             }
         }
