@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int possDays(vector<int>& arr, int cap){
+    bool possDays(vector<int>& arr, int cap, int maxDays){
         int day = 1, load = 0;
         for(int i = 0; i<arr.size(); i++){
             if(arr[i]+load>cap){
@@ -11,7 +11,7 @@ public:
                 load+=arr[i];
             }
         }
-        return day;
+        return day<=maxDays;
     }
     int shipWithinDays(vector<int>& weights, int days) {
         int low = *max_element(weights.begin(), weights.end());
@@ -19,13 +19,12 @@ public:
 
         while(low<=high){
             int mid = low+(high-low)/2;
-            int ansDays = possDays(weights, mid);
 
-            if(ansDays>days){
-                low = mid+1;
+            if(possDays(weights, mid, days)){
+                high = mid-1;
             }
             else{
-                high = mid-1;
+                low = mid+1;
             }
         }
         return low;
